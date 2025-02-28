@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #b0e681;
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #b0e681;
+  border-radius: 9999px;
+}
+
+
+.ql-video {
+  width: 100%;
+  height: 315px;
+  margin-top: 14px;
+}
+
+.ql-align-center {
+  font-size: 16px;
+  margin-top: 3px;
+  color: #666;
+  text-align: center;
+  margin-top: 5px;
+  outline: none; 
+  cursor: text;
+}
