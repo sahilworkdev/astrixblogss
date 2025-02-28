@@ -56,7 +56,7 @@ export default function PostsGrid({
           <span className="font-bold text-green-100">{query}</span>
         </div>
       )}
-      {tagName && tagPosts && (
+      {tagName && (
         <div className="text-start text-grey-100 text-xl">
           Posts for tag: &nbsp;
           <span className="font-bold text-green-100">{tagName}</span>
